@@ -1,20 +1,25 @@
+/* Bookcardstyling.css */
+
 .book-card-section-container {
   display: flex;
   flex-wrap: wrap;
-  margin-left: 16%; /* Adjust this value to match the width of your sidebar */
+  margin-left: 15%; /* Adjust this value to match the width of your sidebar */
 }
+
 .book-card-section-header {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   margin-bottom: 20px;
-  margin-top: 13%;
-  
+  margin-top: 7%;
+  margin-left: 16%;
+  margin-right: 10%;
 }
 
 .book-card-section-header input {
   padding: 8px;
   font-size: 16px;
+  align-items: center;
 }
 
 .book-card-section-header select {
@@ -23,31 +28,20 @@
 }
 
 .book-card-section {
-  .book-card-section {
-    flex-grow: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 20px;
-    margin-top: 20px;
-  }
-  
-  .book-card {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border-radius: 4px;
-    /* Add styles for the book card component */
-  }
-  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 20px;
 }
 
 .book-card {
-  
-  margin-left: 20px;
+  flex: 0 0 20%; /* Adjust the width of the book card based on your design */
   background-color: #f5f5f5;
   padding: 20px;
   border-radius: 4px;
+  
 }
 
 .book-card h3 {
@@ -56,4 +50,22 @@
 
 .book-card p {
   margin-bottom: 8px;
+}
+
+.read-more-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: #0056b3;
+}
+
+.read-more-button:focus {
+  outline: none;
 }

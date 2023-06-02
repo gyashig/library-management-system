@@ -5,24 +5,31 @@
 
 .side-layout {
     position: fixed;
-    left: 0;
-    top: 60px;
+    left: 20px;
+    right: 20px;
+    top: 100px;
     width: 15%;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: white;
     padding: 1rem;
+    border: #808080 solid 4px;
+    border-radius: 20px;
+  }
+  .category-title,.rating-title{
+    color: #005EFF;
+    font-size: 20px;
+    font-weight: bold ;
+  }
+  .checkboxes{
+    padding-top: 10px;
   }
   
-  .category-option,
-  .rating-option {
+  .category-option,.rating-option {
+    font-size: 13px;
     margin-bottom: 1rem;
     padding: 0.5rem;
     border-radius: 4px;
-    background-color: #fff;
+    
   }
   
-  .category-option:hover,
-  .rating-option:hover {
-    background-color: #e6e6e6;
-  }
   

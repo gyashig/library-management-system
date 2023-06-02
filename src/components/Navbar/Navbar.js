@@ -1,16 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
-import './Navbarstyles.css'
+import './Navbarstyles.css';
+
 const Navbar = () => {
   return (
     <nav>
-      <div className="logo">Logo</div>
+      <img src={require('./logo.png')} className="logo" alt="Logo" />
       <div className="search-container">
-        <input type="text" placeholder="Search" />
-        <button type="button">
-          <FontAwesomeIcon icon={faSearch} />
-        </button>
+        <h1>Library Management System</h1>
       </div>
       <div className="login">Login</div>
     </nav>

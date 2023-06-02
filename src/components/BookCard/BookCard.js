@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Bookcardstyling.css';
 import bookData from './books.json';
 
@@ -67,6 +68,10 @@ const BookCard = () => {
     };
   }, []);
 
+  const handleReadMore = (link) => {
+    window.open(link, '_blank');
+  };
+
   return (
     <div>
       <div className="book-card-section-header">
@@ -87,9 +92,12 @@ const BookCard = () => {
       <div className="book-card-section" id="book-section">
         {visibleBooks.map((book, index) => (
           <div key={index} className="book-card">
+            <img src={book.image} alt={book.title} className="book-image" />
             <h3>{book.title}</h3>
             <p>Author: {book.author}</p>
             <p>Genre: {book.genre}</p>
+            <Link to={`/${book.link}`} className="read-more-button"> Read More
+            </Link>
           </div>
         ))}
       </div>
