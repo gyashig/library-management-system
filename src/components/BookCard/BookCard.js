@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar } from '@fortawesome/free-solid-svg-icons';
 import './Bookcardstyling.css';
 import bookData from './books.json';
 
@@ -48,6 +50,8 @@ const BookCard = () => {
       sortedBooks.sort((a, b) => a.author.localeCompare(b.author, 'en', { numeric: true }));
     } else if (sortOption === 'genre') {
       sortedBooks.sort((a, b) => a.genre.localeCompare(b.genre, 'en', { numeric: true }));
+    } else if (sortOption === 'rating') {
+      sortedBooks.sort((a, b) => b.rating - a.rating);
     }
 
     setSortOption(sortOption);
@@ -86,17 +90,27 @@ const BookCard = () => {
           <option value="title">Title</option>
           <option value="author">Author</option>
           <option value="genre">Genre</option>
+          <option value="rating">Rating</option>
         </select>
       </div>
 
       <div className="book-card-section" id="book-section">
         {visibleBooks.map((book, index) => (
           <div key={index} className="book-card">
-            <img src={book.image} alt={book.title} className="book-image" />
+          <img src={`/images/${book.image}`} alt={book.title} className="book-image" />
             <h3>{book.title}</h3>
+            <div className="book-details">
+              <div className="star-rating">
+                {[...Array(book.rating)].map((_, index) => (
+                  <FontAwesomeIcon key={index} icon={faStar} className="star" />
+                ))}
+              </div>
+              <p>{book.rating}/5</p>
+            </div>
             <p>Author: {book.author}</p>
             <p>Genre: {book.genre}</p>
-            <Link to={`/${book.link}`} className="read-more-button"> Read More
+            <Link to={`/${book.link}`} className="read-more-button">
+              Read More
             </Link>
           </div>
         ))}

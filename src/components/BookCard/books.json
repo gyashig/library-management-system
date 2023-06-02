@@ -1,38 +1,47 @@
-[
+
+  [
     {
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fimaginationsoup.net%2Fhistorical-fiction-books%2F&psig=AOvVaw3sAVM6eRN9XGx3BhZic68G&ust=1685809239381000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJDfrPn-pP8CFQAAAAAdAAAAABAE",
+      "image": "../images/tempest.jpg",
       "title": "Book 1",
       "author": "Author 1",
       "genre": "Fiction",
-      "link":"/lmsyashi/src/components/ProductDescription/ProductDescription.js"
+      "rating": 4
+    
     },
     {
-        "image": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fm.media-amazon.com%2Fimages%2FI%2F5165He67NEL._AC._SR240%2C240.jpg&tbnid=g9tIY57fF9lDvM&vet=12ahUKEwiO65_4_qT_AhVCSXwKHbiVAOgQMygEegUIARDlAQ..i&imgrefurl=https%3A%2F%2Fwww.amazon.in%2FFantasy-Science-Fiction-Horror-Books%2Fb%3Fie%3DUTF8%26node%3D1402037031&docid=uFs5Lq2elCW5zM&w=240&h=240&q=fiction%20books&ved=2ahUKEwiO65_4_qT_AhVCSXwKHbiVAOgQMygEegUIARDlAQ",
+        "image": "./paolini.jpg",
         "title": "Book 1",
         "author": "Author 1",
-        "genre": "Fiction"
+        "genre": "Fiction",
+        "rating": 3
+      },
+      {
+        "image": "../images/spin.jpg",
+        "title": "Book 1",
+        "author": "Author 1",
+        "genre": "Fiction",
+        "rating": 2
       },
       {
         "image": "../images/past.jpg",
         "title": "Book 1",
         "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "image": "../images/past.jpg",
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
+        "genre": "Fiction",
+        "rating": 1
       },
     {
+      "image":"../images/tempest.jpg",
       "title": "Book 2",
       "author": "Author 2",
-      "genre": "Non-Fiction"
+      "genre": "Non-Fiction",
+      "rating": 5
     },
     {
+      "image":"../images/spin.jpg",
         "title": "Book 2",
         "author": "Author 2",
-        "genre": "Non-Fiction"
+        "genre": "Non-Fiction",
+        "rating": 1
       },
       {
         "title": "Book 2",
@@ -800,4 +809,3 @@
                   "genre": "Fiction"
                 }
 ]
-  
