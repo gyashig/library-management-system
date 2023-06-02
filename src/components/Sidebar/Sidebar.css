@@ -1,0 +1,23 @@
+.side-layout {
+    position: fixed;
+    left: 0;
+    top: 60px;
+    width: 15%;
+    height: 100vh;
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+  
+  .category-option,
+  .rating-option {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  .category-option:hover,
+  .rating-option:hover {
+    background-color: #e6e6e6;
+  }
+  
