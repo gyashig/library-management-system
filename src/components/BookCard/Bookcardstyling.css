@@ -37,7 +37,7 @@
   border: #808080 solid 3px;
   border-radius: 10px;
   padding: 10px;
-  color:  #005EFF;;
+  color:  #005EFF;
  
 }
 
@@ -108,3 +108,81 @@
 .book-details p {
   margin-bottom: 0;
 }
+@media (min-width: 576px) {
+  .book-card {
+    flex: 0 0 50%; /* Adjust the width of the book card based on your design */
+  }
+}
+
+@media (min-width: 768px) {
+  .book-card {
+    flex: 0 0 33.33%; /* Adjust the width of the book card based on your design */
+  }
+}
+
+@media (min-width: 992px) {
+  .book-card {
+    flex: 0 0 25%; /* Adjust the width of the book card based on your design */
+  }
+}
+
+@media (min-width: 1200px) {
+  .book-card {
+    flex: 0 0 20%; /* Adjust the width of the book card based on your design */
+  }
+}
+
+.book-card h3 {
+  margin-top: 0;
+}
+
+.book-card p {
+  margin-bottom: 8px;
+}
+
+.read-more-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.read-more-button:hover {
+  background-color: #0056b3;
+}
+
+.read-more-button:focus {
+  outline: none;
+}
+
+.book-details {
+  display: flex;
+  align-items: center;
+}
+
+.star-rating {
+  display: flex;
+  margin-right: 8px;
+}
+
+.star {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-color: #fdd835;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+
+.book-details p {
+  margin-bottom: 0;
+}
+
+
+
+
+
+
