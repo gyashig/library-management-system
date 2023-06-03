@@ -1,42 +1,54 @@
 import React from 'react';
 import './Sidebar.css';
+import { useDispatch } from 'react-redux';
+import { setGenre } from '../../redux/genre.action';
 
 const Sidebar = () => {
+  const dispatch = useDispatch()
   return (
     <div className="sidebar">
       <div className="side-layout">
         <div className="category-option">
           <span className="category-title">Category</span>
           <div className="checkboxes">
+          <form onSubmit={(e) => console.log(e)}>
             <label>
-              <input type="checkbox" value="fiction" />
+              <input 
+                onClick={(e) => dispatch(setGenre(e.target.value))} 
+                type="radio" 
+                value="fiction" 
+
+                />
               Fiction
             </label>
             <br />
             <label>
-              <input type="checkbox" value="science-fiction" />
+              <input type="radio" value="science-fiction" />
               Science-Fiction
             </label>
             <br />
             <label>
-              <input type="checkbox" value="non-fiction" />
+              <input type="radio" value="non-fiction" />
               Non Fiction
             </label>
             <br />
             <label>
-              <input type="checkbox" value="comedy" />
+              <input type="radio" value="comedy" />
               Comedy
             </label>
             <br />
             <label>
-              <input type="checkbox" value="horror" />
+              <input type="radio" value="horror" />
               Horror
             </label>
             <br />
             <label>
-              <input type="checkbox" value="romance" />
+              <input type="radio" value="romance" />
               Romance
             </label>
+
+            <button type='submit'>Filter</button>
+          </form>
           </div>
           <a
             href="/categories"
@@ -51,17 +63,17 @@ const Sidebar = () => {
         <div className="rating-title">Rating</div>
         <div className="checkboxes">
             <label>
-              <input type="checkbox" value="Lessthan3" />
+              <input type="radio" value="Lessthan3" />
               Less than 3
             </label>
             <br />
             <label>
-              <input type="checkbox" value="three" />
+              <input type="radio" value="three" />
               3-4
             </label>
             <br />
             <label>
-              <input type="checkbox" value="four" />
+              <input type="radio" value="four" />
               4-5
             </label>
             <br />

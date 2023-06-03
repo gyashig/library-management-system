@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 import './Bookcardstyling.css';
 import bookData from './books.json';
+import { useSelector } from 'react-redux';
 
 const BookCard = () => {
   const [books, setBooks] = useState([]);
@@ -12,6 +13,9 @@ const BookCard = () => {
   const [sortOption, setSortOption] = useState('');
   const [visibleBooks, setVisibleBooks] = useState([]);
   const [loadCount, setLoadCount] = useState(18);
+
+  const genre = useSelector((state) => state.genre)
+  console.log(genre)
 
   useEffect(() => {
     const bookSection = document.getElementById('book-section');
@@ -22,8 +26,12 @@ const BookCard = () => {
   }, []);
 
   useEffect(() => {
-    setVisibleBooks(filteredBooks.slice(0, loadCount));
+    setVisibleBooks(filteredBooks.slice(0, loadCount));    
   }, [filteredBooks, loadCount]);
+
+  useEffect(() => {
+    if (genre.genre) setVisibleBooks(filteredBooks.filter(books => books.genre === genre.genre).splice(0, loadCount))
+  }, [genre])
 
   const handleSearch = (event) => {
     const searchQuery = event.target.value.toLowerCase();
