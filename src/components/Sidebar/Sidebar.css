@@ -1,6 +1,7 @@
 .sidebar {
   width: 15%;
   /* Add styles for the sidebar component */
+  z-index: -1;
 }
 
 .side-layout {
@@ -15,6 +16,7 @@
     border: #808080 solid 4px;
     border-radius: 20px;
     height: 600px;
+    z-index: -1;
   }
   .category-title,.rating-title{
     color: #005EFF;

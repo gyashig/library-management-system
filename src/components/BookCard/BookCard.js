@@ -108,7 +108,7 @@ const BookCard = () => {
             </div>
             <p>Author: {book.author}</p>
             <p>Genre: {book.genre}</p>
-            <Link to={`/${book.link}`} className="read-more-button">
+            <Link to={`/book`} className="read-more-button">
               Read More
             </Link>
           </div>

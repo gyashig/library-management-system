@@ -4,9 +4,11 @@ import AdminForm from './AdminForm/AdminForm';
 import UserForm from './UserForm/UserForm';
 import SignupForm from './SignUpForm/SignUpForm';
 
+
+
 const Login = () => {
   const [showAdminForm, setShowAdminForm] = useState(false);
-  const [showUserForm, setShowUserForm] = useState(false);
+  const [showUserForm, setShowUserForm] = useState(true);
 
   const handleAdminClick = () => {
     setShowAdminForm(true);
@@ -41,7 +43,7 @@ const Login = () => {
         {showUserForm && (
           <div>
             <UserForm />
-            <SignupForm />
+            {/* <SignupForm /> */}
           </div>
         )}
       </div>

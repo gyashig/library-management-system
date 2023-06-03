@@ -4,8 +4,10 @@ import Sidebar from './components/Sidebar/Sidebar';
 import ProductDescription from './components/ProductDescription/ProductDescription';
 import BookCard from './components/BookCard/BookCard';
 import Footer from './components/Footer/Footer';
+import Login from "./components/Login/Login";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
+import SignupForm from './components/Login/SignUpForm/SignUpForm';
 
 const App = () => {
   return (
@@ -13,12 +15,12 @@ const App = () => {
       <Navbar />
       <div className="app-container">
         <Sidebar />
-        <BrowserRouter>
           <Routes>
             <Route path="/" element={<BookCard />} />
-            <Route path="/components/ProductDescription/:bookId" element={<ProductDescription />} />
+            <Route path="/login" element={<Login/>}/>         
+            <Route path="/book" element={<ProductDescription/>}/>
+            <Route path="/signup" element={<SignupForm/>}/>
           </Routes>
-        </BrowserRouter>
       </div>
       <Footer />
     </div>

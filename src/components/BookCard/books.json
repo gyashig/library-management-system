@@ -1,811 +1,173 @@
 
   [
     {
+      "image": "../images/boys.jpg",
+      "title": "The Boys in the Boat",
+      "author": "Daniel James Brown",
+      "genre": "Non-Fiction",
+      "rating": 4
+    },
+    {
+      "image": "../images/justice.jpg",
+      "title": "The Lady Justice",
+      "author": "Neil Gaiman ",
+      "genre": "Non-Fiction",
+      "rating": 1
+    },
+    {
       "image": "../images/tempest.jpg",
-      "title": "Book 1",
-      "author": "Author 1",
+      "title": "Tempest",
+      "author": "William Shakespeare",
       "genre": "Fiction",
       "rating": 4
     
     },
     {
+      "image": "../images/jimmy.jpg",
+      "title": "Jimmy Carry",
+      "author": "Jimmy Carry",
+      "genre": "Comedy",
+      "rating": 2
+    
+    },
+    {
+      "image": "../images/unhappy.jpg",
+      "title": "The Unhappy Medium",
+      "author": "T. J. Brown",
+      "genre": "Comedy",
+      "rating": 4
+    
+    },
+    {
+      "image": "../images/red.jpg",
+      "title": "Red, White & Royal Blue",
+      "author": "Casey McQuiston",
+      "genre": "Comedy",
+      "rating": 1
+    
+    },
+    {
         "image": "./paolini.jpg",
-        "title": "Book 1",
-        "author": "Author 1",
+        "title": "Paolini",
+        "author": "Christopher Paolini.",
         "genre": "Fiction",
         "rating": 3
       },
       {
         "image": "../images/spin.jpg",
-        "title": "Book 1",
-        "author": "Author 1",
+        "title": "Spin the Dawn",
+        "author": " Elizabeth Lim",
         "genre": "Fiction",
         "rating": 2
       },
       {
         "image": "../images/past.jpg",
-        "title": "Book 1",
-        "author": "Author 1",
+        "title": "The Past Is Rising",
+        "author": " Kathryn Bywaters",
         "genre": "Fiction",
         "rating": 1
       },
     {
-      "image":"../images/tempest.jpg",
-      "title": "Book 2",
-      "author": "Author 2",
-      "genre": "Non-Fiction",
+      "image":"../images/desolation.jpg",
+      "title": "A Desolation Called Peace",
+      "author": "Arkady Martine ",
+      "genre": "Fiction",
       "rating": 5
     },
     {
-      "image":"../images/spin.jpg",
-        "title": "Book 2",
-        "author": "Author 2",
-        "genre": "Non-Fiction",
+      "image":"../images/blue skies.jpg",
+        "title": "Blue Skies",
+        "author": " Anne Bustard ",
+        "genre": "Fiction",
         "rating": 1
       },
       {
-        "title": "Book 2",
-        "author": "Author 2",
-        "genre": "Non-Fiction"
+        "image":"../images/light.jpg",
+        "title": "All the Light We Cannot See",
+        "author": "Anthony Doerr",
+        "genre": "Fiction",
+        "rating": 4
+
       },
       {
-        "title": "Book 2",
-        "author": "Author 2",
-        "genre": "Non-Fiction"
+        "image": "../images/spin.jpg",
+        "title": "Spin the Dawn",
+        "author": " Elizabeth Lim",
+        "genre": "Fiction",
+        "rating": 2
       },
       {
-        "title": "Book 2",
-        "author": "Author 2",
-        "genre": "Non-Fiction"
+        "image": "../images/diary.jpg",
+        "title": "The Diary of a Young Girl",
+        "author": " Anne Frank",
+        "genre": "Non-Fiction",
+        "rating": 3
+      
       },
       {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 1",
-        "author": "Author 1",
-        "genre": "Fiction"
-      },
-      {
-        "title": "Book 2",
-        "author": "Author 2",
-        "genre": "Non-Fiction"
-      },
-      {
-          "title": "Book 2",
-          "author": "Author 2",
-          "genre": "Non-Fiction"
+          "image": "../images/boys.jpg",
+          "title": "The Boys in the Boat",
+          "author": "Daniel James Brown",
+          "genre": "Non-Fiction",
+          "rating": 4
         },
         {
-          "title": "Book 2",
-          "author": "Author 2",
-          "genre": "Non-Fiction"
+          "image": "../images/ghost.jpg",
+          "title": "Ghosts of Alda",
+          "author": "Russell Archey",
+          "genre": "Horror",
+          "rating": 2
         },
         {
-          "title": "Book 2",
-          "author": "Author 2",
-          "genre": "Non-Fiction"
+          "image": "../images/justice.jpg",
+          "title": "The Lady Justice",
+          "author": "Neil Gaiman ",
+          "genre": "Non-Fiction",
+          "rating": 1
         },
         {
-          "title": "Book 2",
-          "author": "Author 2",
-          "genre": "Non-Fiction"
+          "image": "../images/slavery.jpg",
+          "title": " Andrés Reséndez ",
+          "author": "  Andrés Reséndez ",
+          "genre": "Non-Fiction",
+          "rating": 2
         },
         {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
+          "image": "../images/eater.jpg",
+          "title":"Ghost Eaters ",
+          "author": " Clay McLeod Chapman ",
+          "genre": "Horror",
+          "rating": 2
+        },
+        
+        {
+          "image": "../images/past.jpg",
+          "title": "The Past Is Rising",
+          "author": " Kathryn Bywaters",
+          "genre": "Fiction",
+          "rating": 1
+        },
+      {
+        "image":"../images/desolation.jpg",
+        "title": "A Desolation Called Peace",
+        "author": "Arkady Martine ",
+        "genre": "Fiction",
+        "rating": 5
+      },
+      {
+        "image":"../images/blue skies.jpg",
+          "title": "Blue Skies",
+          "author": " Anne Bustard ",
+          "genre": "Fiction",
+          "rating": 1
         },
         {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-          "title": "Book 1",
-          "author": "Author 1",
-          "genre": "Fiction"
-        },
-        {
-            "title": "Book 1",
-            "author": "Author 1",
-            "genre": "Fiction"
-          },
-          {
-            "title": "Book 2",
-            "author": "Author 2",
-            "genre": "Non-Fiction"
-          },
-          {
-              "title": "Book 2",
-              "author": "Author 2",
-              "genre": "Non-Fiction"
-            },
-            {
-              "title": "Book 2",
-              "author": "Author 2",
-              "genre": "Non-Fiction"
-            },
-            {
-              "title": "Book 2",
-              "author": "Author 2",
-              "genre": "Non-Fiction"
-            },
-            {
-              "title": "Book 2",
-              "author": "Author 2",
-              "genre": "Non-Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-              "title": "Book 1",
-              "author": "Author 1",
-              "genre": "Fiction"
-            },
-            {
-                "title": "Book 1",
-                "author": "Author 1",
-                "genre": "Fiction"
-              },
-              {
-                "title": "Book 2",
-                "author": "Author 2",
-                "genre": "Non-Fiction"
-              },
-              {
-                  "title": "Book 2",
-                  "author": "Author 2",
-                  "genre": "Non-Fiction"
-                },
-                {
-                  "title": "Book 2",
-                  "author": "Author 2",
-                  "genre": "Non-Fiction"
-                },
-                {
-                  "title": "Book 2",
-                  "author": "Author 2",
-                  "genre": "Non-Fiction"
-                },
-                {
-                  "title": "Book 2",
-                  "author": "Author 2",
-                  "genre": "Non-Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                },
-                {
-                  "title": "Book 1",
-                  "author": "Author 1",
-                  "genre": "Fiction"
-                }
+          "image":"../images/light.jpg",
+          "title": "All the Light We Cannot See",
+          "author": "Anthony Doerr",
+          "genre": "Fiction",
+          "rating": 4
+  
+        }
+      
 ]

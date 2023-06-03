@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import './UserForm.css';
+import { Link, useHistory, useNavigate } from 'react-router-dom';
 
 const UserForm = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
-
+  const navigate = useNavigate()
   const handleSubmit = (e) => {
     e.preventDefault();
     // Handle form submission logic
@@ -35,6 +36,10 @@ const UserForm = () => {
         </div>
 
         <button type="submit">Log In</button>
+
+        <p>New User? </p>
+        <button onClick={(e) => navigate('/signup')} className="login">Login
+      </button>
       </form>
     </div>
   );
