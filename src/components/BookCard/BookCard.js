@@ -29,8 +29,8 @@ const BookCard = () => {
     const searchQuery = event.target.value.toLowerCase();
 
     const filteredBooks = books.filter(
-      (book) =>
-        book.title.toLowerCase().includes(searchQuery) ||
+      (book) => 
+       
         book.author.toLowerCase().includes(searchQuery) ||
         book.genre.toLowerCase().includes(searchQuery)
     );
@@ -44,9 +44,8 @@ const BookCard = () => {
 
     let sortedBooks = [...filteredBooks];
 
-    if (sortOption === 'title') {
-      sortedBooks.sort((a, b) => a.title.localeCompare(b.title, 'en', { numeric: true }));
-    } else if (sortOption === 'author') {
+    
+      if (sortOption === 'author') {
       sortedBooks.sort((a, b) => a.author.localeCompare(b.author, 'en', { numeric: true }));
     } else if (sortOption === 'genre') {
       sortedBooks.sort((a, b) => a.genre.localeCompare(b.genre, 'en', { numeric: true }));
@@ -87,8 +86,8 @@ const BookCard = () => {
         />
         <select value={sortOption} onChange={handleSort}>
           <option value="">Sort by</option>
-          <option value="title">Title</option>
-          <option value="author">Author</option>
+         
+         
           <option value="genre">Genre</option>
           <option value="rating">Rating</option>
         </select>
