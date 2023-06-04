@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Sidebar.css';
 import { useDispatch } from 'react-redux';
 import { setGenre } from '../../redux/genre.action';
 
 const Sidebar = () => {
+  const [movieGenre, setMovieGenre] = useState('')
   const dispatch = useDispatch()
   return (
     <div className="sidebar">
@@ -14,40 +15,87 @@ const Sidebar = () => {
           <form onSubmit={(e) => console.log(e)}>
             <label>
               <input 
-                onClick={(e) => dispatch(setGenre(e.target.value))} 
-                type="radio" 
+                type="radio"
+                name="genre"
                 value="fiction" 
-
+                checked={movieGenre === 'fiction'}
+                onChange={(e) => {
+                  setMovieGenre(e.target.value)
+                  dispatch(setGenre(e.target.value))
+                }}
                 />
               Fiction
             </label>
             <br />
             <label>
-              <input type="radio" value="science-fiction" />
+              <input 
+                type="radio"
+                name="genre" 
+                value="science-fiction" 
+                checked={movieGenre === 'science-fiction'}
+                onChange={(e) => {
+                  setMovieGenre(e.target.value)
+                  dispatch(setGenre(e.target.value))
+                }}
+                />
               Science-Fiction
             </label>
             <br />
             <label>
-              <input type="radio" value="non-fiction" />
+              <input 
+              type="radio"
+              name="genre" 
+              value="non-fiction" 
+              checked={movieGenre === 'non-fiction'}
+              onChange={(e) => {
+                  setMovieGenre(e.target.value)
+                  dispatch(setGenre(e.target.value))
+              }}
+              />
               Non Fiction
             </label>
             <br />
             <label>
-              <input type="radio" value="comedy" />
+              <input 
+                type="radio"
+                name="genre" 
+                value="comedy" checked={movieGenre === 'comedy'}
+                onChange={(e) => {
+                  setMovieGenre(e.target.value)
+                  dispatch(setGenre(e.target.value))
+                }}
+                
+                />
               Comedy
             </label>
             <br />
             <label>
-              <input type="radio" value="horror" />
+              <input 
+                type="radio"
+                name="genre" 
+                value="horror" 
+                checked={movieGenre === 'horror'}
+                onChange={(e) => {
+                  setMovieGenre(e.target.value)
+                  dispatch(setGenre(e.target.value))
+                }}
+                />
               Horror
             </label>
             <br />
             <label>
-              <input type="radio" value="romance" />
+              <input 
+                type="radio"
+                name="genre" 
+                value="romance" 
+                checked={movieGenre === 'romance'}
+                onChange={(e) => {
+                  setMovieGenre(e.target.value)
+                  dispatch(setGenre(e.target.value))
+                }}
+                />
               Romance
             </label>
-
-            <button type='submit'>Filter</button>
           </form>
           </div>
           <a

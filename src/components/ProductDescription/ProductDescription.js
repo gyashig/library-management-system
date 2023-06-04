@@ -6,23 +6,22 @@ const ProductDescription = () => {
   const imgBtns = [
     {
       id: 1,
-      imgUrl:
-        'https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_1.jpg',
+      imgUrl:'https://edit.org/images/cat/book-covers-big-2019101610.jpg',
     },
     {
       id: 2,
       imgUrl:
-        'https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_2.jpg',
+        'https://edit.org/images/cat/book-covers-big-2019101610.jpg',
     },
     {
       id: 3,
       imgUrl:
-        'https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_3.jpg',
+        'https://edit.org/images/cat/book-covers-big-2019101610.jpg',
     },
     {
       id: 4,
       imgUrl:
-        'https://fadzrinmadu.github.io/hosted-assets/product-detail-page-design-with-image-slider-html-css-and-javascript/shoe_4.jpg',
+        'https://edit.org/images/cat/book-covers-big-2019101610.jpg',
     },
   ];
 
@@ -55,7 +54,7 @@ const ProductDescription = () => {
                 <img
                   key={img.id}
                   src={img.imgUrl}
-                  alt="shoe image"
+                  alt="book image"
                   style={{
                     transform: `translateX(${
                       -(imgId - 1) * 100
