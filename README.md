@@ -1,70 +1,19 @@
-# Getting Started with Create React App
+Live link- https://library-management-system-seven-lovat.vercel.app/  <br>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+As a React developer, I worked on a library management system front end that included several key features and interfaces. Here are the five aspects I focused on:<br>
+1- <b>Book Listing:</b> I implemented a reusable React component that rendered a dynamic list of books available in the library. Each book entry was represented by a separate React component that displayed relevant details such as title, author, and availability status. The book list component utilized React's virtual DOM rendering and state management to efficiently update and display the book data. :<br>
 
-## Available Scripts
+2- <b>Book Rating:</b> I integrated a rating system using React components and state management. Users could interact with the rating component to provide feedback on books based on their reading experience. The rating component would update its state based on user input and trigger appropriate React lifecycle methods to reflect the changes in real-time.:<br>
 
-In the project directory, you can run:
+3- <b>Filtering and Sorting:</b> To enhance the usability of the book list, I implemented filtering and sorting functionality using React's state and props. Users could interact with filter and sort components, which triggered state changes in the parent component, causing the book list to re-render and display filtered and sorted results. React's component lifecycle methods, such as componentDidUpdate, were used to handle the updates efficiently. :<br>
 
-### `npm start`
+4- <b>Admin Interface:</b> I developed a separate React interface specifically tailored for administrators. This interface utilized React Router to define different routes and components for managing the library. Admins could navigate to different pages/components to perform actions like adding new books, editing book details, and updating the availability status. React's component composition and state management were used to handle the various administrative functionalities. :<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+5-<b>User Interface:</b> Alongside the admin interface, I created a user-friendly React interface for library patrons. The user interface included components for searching books, viewing book details, checking availability, and requesting book borrowing. React's state and props were leveraged to handle user interactions and maintain the application's dynamic behavior. React Router enabled seamless navigation between different pages/components within the user interface.:<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Additionally, the essential feature can be described as follows: <br>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6-<b>Issuing a Book:</b> Users could initiate a borrowing request by selecting an available book and filling out a React form with their name and contact information. On form submission, the data was sent to the backend through API calls, triggering updates to the book's status in the React component's state. React's data flow and lifecycle methods were used to ensure the UI reflected the updated book availability status and to notify the admin about the borrowing request. <br>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
